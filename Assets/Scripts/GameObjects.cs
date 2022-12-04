@@ -6,14 +6,14 @@ public class GameObjects : MonoBehaviour
     public Transform[] transformers = new Transform[3];
     public Transform targetpos;
 
-    public Light _light;
+    // public Light _light;
     public float speed = 0.5f, rotateSpeed = 10f;
 
     private void Start() {
       // obj.SetActive(false);
       //obj.GetComponent<Transform>().position = new Vector3(10,0,5); 
         targetpos.position = new Vector3(10,0,5);
-        _light.intensity = 0.5f;
+        // _light.intensity = 0.5f;
 
         // for (int i=0; i<Objects.Length ;i++)
         // {
