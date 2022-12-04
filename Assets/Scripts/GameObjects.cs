@@ -34,7 +34,6 @@ public class GameObjects : MonoBehaviour
             {
                 Destroy(transformers[i].gameObject);
             }
-
         }
     }
 }
